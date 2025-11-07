@@ -23,6 +23,7 @@ const Contact = () => {
       setFormData({ name: "", email: "", message: "" });
     }, 3000);
   };
+
   return (
     <section className="section contact-section" id="contact">
       <div className="container">
